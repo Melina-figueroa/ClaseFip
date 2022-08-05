@@ -1,6 +1,12 @@
 .contenedor{
     display: flex;
+    flex-direction: column;
     width: 100%;
+}
+.contenedor .h1{
+    display: inline;
+    flex-direction: row;
+    align-self: center;
 }
 .nombre{
     border: 2 px purple solid;

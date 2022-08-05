@@ -1,13 +1,25 @@
-.contenedor{
+.contenedor {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     width: 100%;
 }
-.titulo{
+h1{
+    text-align: center;
+}
+.contenedor,label{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    width: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: burlywood;
+}
+
+.titulo {
     display: inline;
-    flex-direction: row;
     align-self: center;
 }
-.nombre{
+
+.nombre {
     border: 2 px purple solid;
 }

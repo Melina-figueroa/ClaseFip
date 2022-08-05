@@ -3,39 +3,55 @@
     flex-direction: row;
     width: 100%;
 }
-body{
+
+body {
     background-color: burlywood;
 }
-h1{
+
+h1 {
     color: rgb(141, 78, 31);
     text-align: center;
     border: 2px chocolate solid;
     width: fit-content;
     margin-left: 40%;
 }
-.contenedor,label{
+
+.contenedor,
+label {
     display: flex;
     flex-direction: column;
     align-self: flex-start;
     width: auto;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-.contenedor, input{
+
+.contenedor,
+input {
     flex-direction: column;
     flex-basis: auto;
     color: rgb(56, 36, 12);
     border: 2 px chocolate solid;
 }
+
 .titulo {
     display: inline;
     align-self: center;
 }
 
-.contenedor .consulta{
+.contenedor .consulta {
     display: inline;
     align-self: center;
 }
-.contenedor .cuadroTexto{
+
+.contenedor .cuadroTexto {
     display: flex;
-align-self: center;
+    align-self: center;
+    width: auto;
+    margin: 1%;
+}
+
+.contenedor .botonGuardar {
+    align-self: center;
+    margin: 1%;
+    border-style: double;
 }

@@ -3,8 +3,15 @@
     flex-direction: row;
     width: 100%;
 }
+body{
+    background-color: burlywood;
+}
 h1{
+    color: rgb(141, 78, 31);
     text-align: center;
+    border: 2px chocolate solid;
+    width: fit-content;
+    margin-left: 40%;
 }
 .contenedor,label{
     display: flex;
@@ -12,14 +19,23 @@ h1{
     align-self: flex-start;
     width: auto;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: burlywood;
 }
-
+.contenedor, input{
+    flex-direction: column;
+    flex-basis: auto;
+    color: rgb(56, 36, 12);
+    border: 2 px chocolate solid;
+}
 .titulo {
     display: inline;
     align-self: center;
 }
 
-.nombre {
-    border: 2 px purple solid;
+.contenedor .consulta{
+    display: inline;
+    align-self: center;
+}
+.contenedor .cuadroTexto{
+    display: flex;
+align-self: center;
 }

@@ -3,7 +3,7 @@
     flex-direction: column;
     width: 100%;
 }
-.contenedor .h1{
+.titulo{
     display: inline;
     flex-direction: row;
     align-self: center;

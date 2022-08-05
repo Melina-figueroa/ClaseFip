@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,29 +8,34 @@
     <title>Trabajo en clase- FIP</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-<div class="contenedor">
-    <h1 class="h1">Mi Formulario</h1>
+    <div class="titulo">
+        <h1>Mi Formulario</h1>
+        <!--Agregue clase a h1-->
+    </div>
+    <div class="contenedor">
         <div class="nombre">
-        <Label>Ingrese Nombre</Label>
-        <input type="text" class="nombre">
+            <Label>Ingrese Nombre</Label>
+            <input type="text" class="nombre">
+        </div>
+        <div class="apellido">
+            <Label>Ingrese apellido</Label>
+            <input type="text" class="apellido">
+        </div>
+        <div class="correo">
+            <Label>Ingrese Mail</Label>
+            <input type="email" class="mail">
+        </div>
+        <div class="consulta">
+            <Label>Ingrese su Consulta</Label>
+            <textarea id="consulta" rows="4" cols="50"></textarea>
+        </div>
     </div>
-    <div class="apellido">
-        <Label>Ingrese apellido</Label>
-        <input type="text" class="apellido">
-    </div>
-    <div class="correo">
-        <Label>Ingrese Mail</Label>
-        <input type="email" class="mail">
-    </div>
-    <div class="consulta">
-        <Label>Ingrese su Consulta</Label>
-        <textarea id="consulta" rows="4" cols="50"></textarea>
-    </div>
-</div> 
-   <button id="guardar">Guardar Datos</button>
-   
-   <h2></h2>
-<script src="formulario.js"></script>
+    <button id="guardar">Guardar Datos</button>
+
+    <h2></h2>
+    <script src="formulario.js"></script>
 </body>
+
 </html>
